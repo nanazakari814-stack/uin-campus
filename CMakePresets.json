@@ -1,0 +1,19 @@
+{
+    "version":3,
+    "cmakeMinimumRequired":{
+        "major":3,
+        "minor":15,
+        "patch":0
+},
+"configurePresets":[
+    {
+        "name":"debug",
+        "displayName":"Debug preset",
+        "generator":"Ninja",
+        "binaryDir":"${sourceDir}/build/debug",
+        "cacheVariables":{
+            "CMAKE_BUILD_TYPE":"Debug"
+        }
+    }
+  ]
+}
